@@ -10,3 +10,5 @@ class Repository:
         for package in self.packages.values():
             result += package.size
         return result
+
+
